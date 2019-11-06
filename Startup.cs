@@ -36,7 +36,8 @@ namespace admin
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseHttpsRedirection();
+            // 強制使用https
+            // app.UseHttpsRedirection();
 
             app.UseRouting();
 
